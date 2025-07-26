@@ -49,9 +49,9 @@ export default function Hero() {
                 <button className="btn-primary">
                   <span className="mr-2">{'>'}</span> Let's Connect
                 </button>
-                <button className="btn-secondary">
+                {/* <button className="btn-secondary">
                   <span className="mr-2">$</span> View Projects
-                </button>
+                </button> */}
               </div>
             </div>
           </div>
