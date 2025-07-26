@@ -10,7 +10,7 @@ export default function Navigation() {
             <a href="#home" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ home</a>
             <a href="#about" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ about</a>
             <a href="#skills" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ skills</a>
-            <a href="#projects" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ projects</a>
+            {/* <a href="#projects" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ projects</a> */}
             <a href="#services" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ services</a>
             <a href="#contact" className="text-slate-300 hover:text-blue-400 transition-colors duration-300 hover:underline">$ contact</a>
           </div>
