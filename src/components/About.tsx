@@ -54,15 +54,7 @@ export default function About() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="w-3 h-3 bg-green-500 rounded-full animate-pulse"></div>
-                  <span className="text-slate-300">Available for new projects</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-blue-500 rounded-full animate-pulse"></div>
-                  <span className="text-slate-300">Remote & On-site consulting</span>
-                </div>
-                <div className="flex items-center space-x-3">
-                  <div className="w-3 h-3 bg-purple-500 rounded-full animate-pulse"></div>
-                  <span className="text-slate-300">Strategic technology planning</span>
+                  <span className="text-slate-300">Open to enquiries</span>
                 </div>
               </div>
             </div>
