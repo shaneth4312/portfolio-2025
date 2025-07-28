@@ -6,7 +6,7 @@ import {
   Hero,
   About,
   Skills,
-  // Projects,
+  Projects,
   Services,
   Contact,
   Footer
@@ -31,7 +31,7 @@ export default function Home() {
       <Skills />
 
       {/* Projects Section */}
-      {/* <Projects /> */}
+      <Projects />
 
       {/* Services Section */}
       <Services />
