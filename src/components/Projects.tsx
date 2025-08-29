@@ -156,22 +156,29 @@ export default function Projects() {
 
             <div className="project-card">
               <div className="flex items-center justify-between mb-4">
-                <h4 className="text-xl font-bold">E-commerce Framework</h4>
-                <span className="text-yellow-400 text-sm">UNDER DEVELOPMENT</span>
+                <h4 className="text-xl font-bold">Payload E-commerce Framework</h4>
+                <span className="text-green-400 text-sm">LIVE</span>
               </div>
-              <p className="text-slate-400 mb-4">Modern e-commerce framework with advanced features, payment integration, and inventory management.</p>
+              <p className="text-slate-400 mb-4">Production-ready e-commerce framework built with Payload CMS featuring draft previews, SEO optimization, user authentication, and comprehensive admin panel.</p>
+              <ul className="text-slate-400 mb-4 italic text-sm">
+                <li>• Complete e-commerce solution with Payload CMS</li>
+                <li>• Draft previews and live content editing</li>
+                <li>• SEO optimization and search functionality</li>
+                <li>• User authentication and role management</li>
+              </ul>
               <div className="flex flex-wrap gap-2 mb-4">
+                <span className="tech-tag">Payload CMS</span>
                 <span className="tech-tag">Next.js</span>
-                <span className="tech-tag">Stripe</span>
+                <span className="tech-tag">TypeScript</span>
                 <span className="tech-tag">PostgreSQL</span>
-                <span className="tech-tag">Redis</span>
+                <span className="tech-tag">TailwindCSS</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-slate-500 text-sm">Coming Soon</span>
+                <a href="https://github.com/shaneth4312/Payload-E-commerce-Framework" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">View Project →</a>
                 <div className="flex space-x-2">
-                  <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
-                  <span className="w-3 h-3 bg-orange-500 rounded-full"></span>
-                  <span className="w-3 h-3 bg-red-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-blue-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-purple-500 rounded-full"></span>
                 </div>
               </div>
             </div>
