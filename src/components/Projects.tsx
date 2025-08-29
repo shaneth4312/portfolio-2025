@@ -134,22 +134,29 @@ export default function Projects() {
 
             <div className="project-card">
               <div className="flex items-center justify-between mb-4">
-                <h4 className="text-xl font-bold">AI Chat Interface</h4>
-                <span className="text-yellow-400 text-sm">UNDER DEVELOPMENT</span>
+                <h4 className="text-xl font-bold">Innovation Portal Concept</h4>
+                <span className="text-green-400 text-sm">LIVE</span>
               </div>
-              <p className="text-slate-400 mb-4">Modern chat interface with AI integration, real-time messaging, and advanced NLP capabilities.</p>
+              <p className="text-slate-400 mb-4">Co-creation innovation portal designed to facilitate collaborative innovation processes and community engagement.</p>
+              <ul className="text-slate-400 mb-4 italic text-sm">
+                <li>• Collaborative innovation workspace</li>
+                <li>• Community-driven project development</li>
+                <li>• Advanced middleware and context management</li>
+                <li>• Modern React architecture with custom hooks</li>
+              </ul>
               <div className="flex flex-wrap gap-2 mb-4">
+                <span className="tech-tag">Next.js</span>
+                <span className="tech-tag">TypeScript</span>
                 <span className="tech-tag">React</span>
-                <span className="tech-tag">OpenAI</span>
-                <span className="tech-tag">WebSocket</span>
-                <span className="tech-tag">NLP</span>
+                <span className="tech-tag">TailwindCSS</span>
+                <span className="tech-tag">Custom Hooks</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-slate-500 text-sm">Coming Soon</span>
+                <a href="https://github.com/shaneth4312/Innovation-Portal-Concept" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">View Project →</a>
                 <div className="flex space-x-2">
-                  <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
-                  <span className="w-3 h-3 bg-orange-500 rounded-full"></span>
-                  <span className="w-3 h-3 bg-red-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-purple-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-cyan-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-green-500 rounded-full"></span>
                 </div>
               </div>
             </div>
