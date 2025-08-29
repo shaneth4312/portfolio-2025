@@ -112,22 +112,29 @@ export default function Projects() {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="project-card">
               <div className="flex items-center justify-between mb-4">
-                <h4 className="text-xl font-bold">Figma Plugin</h4>
-                <span className="text-yellow-400 text-sm">UNDER DEVELOPMENT</span>
+                <h4 className="text-xl font-bold">San Marino Restaurant</h4>
+                <span className="text-green-400 text-sm">LIVE</span>
               </div>
-              <p className="text-slate-400 mb-4">Transfers designs from Figma to Payload CMS. Streamlines the design-to-development workflow.</p>
+              <p className="text-slate-400 mb-4">Personal project: Complete website redesign concept for a family-run Italian restaurant. Created as a design exercise and was never intended to replace the restaurant's existing website.</p>
+              <ul className="text-slate-400 mb-4 italic text-sm">
+                <li>• Modern responsive design with Italian aesthetic</li>
+                <li>• Online ordering and reservation system</li>
+                <li>• Location-specific information and menus</li>
+                <li>• Mobile-first approach with WhatsApp integration</li>
+              </ul>
               <div className="flex flex-wrap gap-2 mb-4">
-                <span className="tech-tag">TypeScript</span>
-                <span className="tech-tag">Figma API</span>
-                <span className="tech-tag">Payload CMS</span>
-                <span className="tech-tag">Node.js</span>
+                <span className="tech-tag">React</span>
+                <span className="tech-tag">Next.js</span>
+                <span className="tech-tag">TailwindCSS</span>
+                <span className="tech-tag">Responsive Design</span>
+                <span className="tech-tag">UX/UI</span>
               </div>
               <div className="flex justify-between items-center">
-                <span className="text-slate-500 text-sm">Coming Soon</span>
+                <a href="https://sanmarinorestaurant.shanefarmer.co.uk/" target="_blank" rel="noopener noreferrer" className="text-blue-400 hover:text-blue-300 transition-colors">View Project →</a>
                 <div className="flex space-x-2">
-                  <span className="w-3 h-3 bg-yellow-500 rounded-full"></span>
-                  <span className="w-3 h-3 bg-orange-500 rounded-full"></span>
                   <span className="w-3 h-3 bg-red-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-green-500 rounded-full"></span>
+                  <span className="w-3 h-3 bg-white rounded-full"></span>
                 </div>
               </div>
             </div>
